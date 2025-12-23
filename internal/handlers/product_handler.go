@@ -12,13 +12,13 @@ func ProductsHandler(w http.ResponseWriter, r *http.Request) {
 			ID:       1,
 			Title:    "Air Jordan I",
 			Price:    "$180",
-			ImageURL: "http://localhost:8080/images/pizdec.png",
+			ImageURL: "/images/polinka.png",
 		},
 		{
 			ID:       2,
 			Title:    "Air Jordan II",
 			Price:    "$190",
-			ImageURL: "http://localhost:8080/images/air-jordan1.png",
+			ImageURL: "/images/air-jordan1.png",
 		},
 	}
 

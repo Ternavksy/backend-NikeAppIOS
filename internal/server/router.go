@@ -9,9 +9,9 @@ func SetupRoutes() {
 	http.HandleFunc("/products", handlers.ProductsHandler)
 
 	http.Handle(
-		"/images",
+		"/images/",
 		http.StripPrefix(
-			"images/",
+			"/images/",
 			http.FileServer(http.Dir("./images")),
 		),
 	)
